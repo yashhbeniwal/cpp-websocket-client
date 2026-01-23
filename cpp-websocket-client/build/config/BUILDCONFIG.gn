@@ -1,8 +1,0 @@
-# Minimal build configuration for standalone project
-
-set_default_toolchain("//build/toolchain:default")
-
-default_configs = [
-  "//build/config:compiler",
-]
-
