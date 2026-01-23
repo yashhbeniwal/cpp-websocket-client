@@ -1,0 +1,23 @@
+executable("websocket_client") {
+  sources = [
+    "src/main.cpp",
+
+    "src/websocket/websocket_client.cpp",
+    "src/cli/cli.cpp",
+    "src/chat/chat_manager.cpp",
+  ]
+
+  include_dirs = [
+    "src",
+  ]
+
+  libs = [
+    "ssl",
+    "crypto",
+    "pthread",
+  ]
+
+  cflags_cc = [
+    "-std=c++17",
+  ]
+}
