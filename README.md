@@ -20,10 +20,10 @@ This project demonstrates how to establish a WebSocket connection, send messages
 ## 🛠️ Tech Stack
 - C++
 - WebSocket++
-- ASIO
 
 ---
 
 ## 🧪 Testing
 - Tested using a local WebSocket echo server
 - Executed in Linux (WSL) environment
+
